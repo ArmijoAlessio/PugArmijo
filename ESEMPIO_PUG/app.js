@@ -12,6 +12,15 @@ app.get('/', function (req, res) {
  });
   //Dico a express di processare e inviare la pagina index.pug
 });
+
+app.get('/profile', (req, res) => {
+  const person = people.profiles.find((p) => p.id === req.query.id);
+  res.render('profile', {
+    title: `About ${person.firstname} ${person.lastname}`,
+    person,
+  });
+});
+
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
