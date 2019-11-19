@@ -1,0 +1,30 @@
+{
+ "legos": [
+   {
+     
+     "SetNumber": "LEGO 7784",
+     "SetTheme": "Batman",
+     "SetName": "The Batmobile Ultimate",
+     "Year": "2006",
+     "imgSrc": "001.jpg"  
+   },
+
+   {
+     
+     "SetNumber": "LEGO 10132",
+     "SetTheme": "Harry Potter",
+     "SetName": "Hogwarts Express SE",
+     "Year": "2004",
+     "imgSrc": "002.jpg"  
+   },
+
+   {
+      
+     "SetNumber": "LEGO 10188",
+     "SetTheme": "Star Wars Classic",
+     "SetName": "Death Star™",
+     "Year": "2008",
+     "imgSrc": "003.jpg"  
+   }
+ ]
+}
