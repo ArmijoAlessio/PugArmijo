@@ -1,5 +1,5 @@
 var express = require('express');
-const people = require('./lego.json'); //Copia il file people.json dentro la variabile people
+const lego = require('./lego.json'); //Copia il file people.json dentro la variabile people
 
 var app = express();
 
