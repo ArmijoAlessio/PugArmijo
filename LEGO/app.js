@@ -18,3 +18,10 @@ app.get('/', function (req, res) {
 
  });
 });
+app.get('/lego', (req, res) => {
+  const lego1 = lego.legos.find(p => p.SetNumber === req.query.id);
+  res.render('lego1', {
+    title: `${lego1.SetTheme} - ${lego1.SetName}`,
+    lego1,
+  });
+});

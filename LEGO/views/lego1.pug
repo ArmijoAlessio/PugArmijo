@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/css/style.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+  body
+    header.header
+
+        h1 #{title}
+
+    div.profile     
+      div.profile-details
+        h3.profile-name
+          |Set Number: #{lego1.SetNumber} <br>
+          |Set Theme: #{lego1.SetTheme} <br>
+          |Set Name: #{lego1.SetName}  <br>
+          |Year: #{lego1.Year} <br>
+          a(href=`/`)
+           | indietro
+      div.profile-details 
+        div.profile-image(style=`background: url('/images/${lego1.istr1}') top center no-repeat; background-size: 100%;`) 
+        div.profile-image(style=`background: url('/images/${lego1.istr2}') top center no-repeat; background-size: 100%;`) 
+        div.profile-image(style=`background: url('/images/${lego1.istr3}') top center no-repeat; background-size: 100%;`) 

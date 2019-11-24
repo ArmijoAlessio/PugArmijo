@@ -10,8 +10,8 @@ html
    article.container
      each leg in lego
        div.leg
-         div.person-image(style=`background: url('/images/${leg.imgSrc}') top center no-repeat; background-size: cover;`)
+         div.person-image(style=`background: url('/images/${leg.imgSrc}') top center no-repeat; background-size: 100%;`)
          h2.person-name
            | #{leg.SetName} <br> #{leg.SetTheme}
-         a(href=`/lego1?id=${leg.Year}`)
-           | View Profile
+         a(href=`/lego?id=${leg.SetNumber}`)
+           | istruzioni

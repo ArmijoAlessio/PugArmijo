@@ -6,7 +6,10 @@
      "SetTheme": "Batman",
      "SetName": "The Batmobile Ultimate",
      "Year": "2006",
-     "imgSrc": "001.jpg"  
+     "imgSrc": "001.jpg",
+     "istr1": "b1.jpg",
+     "istr2": "b2.jpg",
+     "istr3": "b3.jpg"   
    },
 
    {
@@ -15,7 +18,10 @@
      "SetTheme": "Harry Potter",
      "SetName": "Hogwarts Express SE",
      "Year": "2004",
-     "imgSrc": "002.jpg"  
+     "imgSrc": "002.jpg",
+     "istr1": "h1.jpg",
+     "istr2": "h2.jpg",
+     "istr3": "h3.jpg"   
    },
 
    {
@@ -24,7 +30,10 @@
      "SetTheme": "Star Wars Classic",
      "SetName": "Death Star™",
      "Year": "2008",
-     "imgSrc": "003.jpg"  
+     "imgSrc": "003.jpg",
+     "istr1": "s1.jpg",
+     "istr2": "s2.jpg",
+     "istr3": "s3.jpg"  
    }
  ]
 }
